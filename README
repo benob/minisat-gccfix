@@ -1,4 +1,15 @@
 ================================================================================
+This version fixes a compilation error with recent gcc/clang.
+To compile, run :
+
+mkdir build
+cd build
+cmake ..
+make
+
+Then minisat can be run with ./minisat
+
+================================================================================
 Quick Install
 
 - Decide where to install the files . The simplest approach is to use
